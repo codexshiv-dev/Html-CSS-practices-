@@ -12,6 +12,12 @@
     cursor: pointer;
     margin-right: 5px;
   }
+  .get-button:hover{
+    opacity: 0.8;
+  }
+  .get-button:active{
+    opacity: 0.4;
+  }
   .download{
     background-color: white;
     color:rgb(108, 117, 125);
@@ -21,7 +27,15 @@
     width:100px;
     height:36px;
     cursor: pointer;
+    transition: background-color 0.15s,color 0.15s;
 
+  }
+  .download:hover{
+    background-color:rgb(108, 117, 125);
+    color: white;
+  }
+  .download:active{
+    opacity: 0.5;
   }
 </style>
 <button class="get-button">Get started</button> 
