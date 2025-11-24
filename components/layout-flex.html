@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex-layout</title>
+</head>
+
+<body style="padding-bottom: 1000px;">
+
+  <div style="display: flex;margin-top: 20px;">
+    <div style="background-color: skyblue;">div1 text</div>
+    <div style="background-color: pink;">div2
+      <p>hello</p>
+    </div>
+  </div>
+
+  <div style="display: flex;margin-top: 20px;">
+    <div style="background-color: skyblue; width: 100px;">100px</div>
+    <div style="background-color: pink; flex: 1;">flex: 1</div>
+  </div>
+
+  <div style="display: flex;margin-top: 20px;">
+    <div style="background-color: skyblue; width: 100px;">100px</div>
+    <div style="background-color: pink; flex: 1;">flex: 1</div>
+    <div style="background-color: rgb(111, 165, 235); flex: 2;">flex: 2</div>
+  </div>
+
+
+  <div style="
+  margin-top: 20px;
+  height: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  ">
+    <div style="
+    background-color: skyblue;
+     width: 100px;
+
+     ">100px</div>
+    <div style="background-color: pink; width: 100px;">100px</div>
+    <div style="background-color: rgb(111, 165, 235); width: 100px;">100px</div>
+  </div>
+
+  <div style="
+  margin-top: 20px;
+  height: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  ">
+    <div style="
+    background-color: skyblue;
+     width: 100px;
+
+     ">100px</div>
+    <div style="background-color: pink; width: 100px;">100px</div>
+    <div style="background-color: rgb(111, 165, 235); width: 100px;">100px</div>
+  </div>
+
+</body>
+
+</html>
