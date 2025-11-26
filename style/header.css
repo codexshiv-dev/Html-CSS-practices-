@@ -37,7 +37,7 @@
 }
 
 .search-bar {
-
+  width: 0;
   flex: 1;
   height: 37px;
   border-width: 1px;
@@ -95,6 +95,7 @@
   width: 200px;
   justify-content: space-between;
   margin-right: 22px;
+  flex-shrink: 0;
 
 }
 
