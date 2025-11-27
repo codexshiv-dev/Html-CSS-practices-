@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested layouts using flex</title>
+  <style>
+    .container {
+      border: 1px solid black;
+      border-radius: 4px;
+      box-shadow: 1px 1px 10px rgb(175, 174, 174);
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px;
+      padding-bottom: 30px;
+    }
+
+    .inbox-content {
+      margin-left: 12px;
+      margin-bottom: 8px;
+      margin-top: 5px;
+      font-size: 15px;
+      color: rgb(150, 145, 145);
+      font-weight: bold;
+    }
+
+    .profile-inbox {
+      display: flex;
+      margin-bottom: 10px;
+    }
+
+    .profile-pic {
+
+      margin: 15px 10px 0px 15px;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .profile {
+      width: 50px;
+      height: 50px;
+
+    }
+
+    .inbox-heading {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 20px;
+      flex: 1;
+
+      width: 370px;
+
+
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 9px;
+      line-height: 22px;
+
+      max-width: 250px;
+      flex: 1;
+
+
+    }
+
+    .time-inbox {
+      width: 54px;
+
+      margin-top: 8px;
+      color: rgb(150, 145, 145);
+      font-weight: bold;
+      font-size: 14px;
+      margin-left: 10px;
+
+    }
+
+    .description-inbox {
+      color: rgb(150, 145, 145);
+      font-weight: bold;
+      margin-top: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="info-inbox">
+      <p class="inbox-content">All INBOXES</p>
+    </div>
+    <div class="profile-inbox">
+      <div class="profile-pic">
+        <img class="profile" src="/images/channel-picture/my-channel (1).jpeg" alt="image">
+      </div>
+
+      <div class="about-inbox">
+        <div class="inbox-heading">
+          <p class="title">Chewy Promotions Biggest sales of the year!</p>
+          <p class="time-inbox">4:58 PM</p>
+        </div>
+        <div class="description-inbox">
+          <p>Hey there! We're writing to tell you about our..</p>
+        </div>
+      </div>
+    </div>
+    <div class="profile-inbox">
+      <div class="profile-pic">
+        <img class="profile" src="/images/channel-picture/my-channel (1).jpeg" alt="image">
+      </div>
+
+      <div class="about-inbox">
+        <div class="inbox-heading">
+          <p class="title">Best Buy Your Best Buy eReceipt</p>
+          <p class="time-inbox">9:58 PM</p>
+        </div>
+        <div class="description-inbox">
+          <p>Thank you for shopping at Best Buy here is..</p>
+        </div>
+      </div>
+    </div>
+    <div class="profile-inbox">
+      <div class="profile-pic">
+        <img class="profile" src="/images/channel-picture/my-channel (1).jpeg" alt="image">
+      </div>
+
+      <div class="about-inbox">
+        <div class="inbox-heading">
+          <p class="title">Here's what's coming soon to Netfilx</p>
+          <p class="time-inbox">8:58 AM</p>
+        </div>
+        <div class="description-inbox">
+          <p>Brand new movies and shows,old favorites..</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
