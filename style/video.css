@@ -5,6 +5,17 @@
 
 .video-thumbnail {
   margin-bottom: 10px;
+  position: relative;
+}
+
+.video-time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  right: 5px;
+  bottom: 9px;
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .video-grid {
